@@ -185,6 +185,7 @@ public class HeightConverterFrame extends JFrame implements ActionListener, Chan
         if(sourceEvent == heightFtSlider){
             sliderVal = heightFtSlider.getValue();
             strSliderVal = Integer.toString(sliderVal);
+             heightFtField.setText(String.valueOf(sliderVal));
         } else if(sourceEvent == heightInSlider){
             sliderVal = heightInSlider.getValue();
             strSliderVal = Integer.toString(sliderVal);
